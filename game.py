@@ -19,7 +19,7 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 # Definir o título da janela
 pygame.display.set_caption("Jogo da Cobrinha")
 
-# Definir a velocidade do relógio
+# Criar um objeto para ajudar a controlar o FPS do jogo
 clock = pygame.time.Clock()
 
 # Definir a velocidade da cobrinha
